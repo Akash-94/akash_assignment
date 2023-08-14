@@ -61,16 +61,18 @@ Finally, the main processing function Orchestrates the data processing steps usi
 
 .. code-block:: python
 
-   def clean_dataset():
-    '''Orchestrates the data processing steps using the above functions and returns the final processed DataFrame.'''
-
-    input_filename = path.abspath(path.join("../data/treasury_data.csv"))
-    output_filename = path.abspath(path.join("../data/hp_oltis_sanctioned_budget"))
-
-    budget_data_df = data_pre_processing(input_filename)
-    updated_budget_data_df = split_columns_and_rename(budget_data_df)
-    
-    updated_budget_data_df.to_csv(output_filename, index=False)
+    def clean_dataset():
+        '''Orchestrates the data processing steps using the above functions and returns the final processed DataFrame.'''
         
-    return output_file
-
+        input_filename = path.abspath(path.join("../data/treasury_data.csv"))
+        output_filename = path.abspath(path.join("../data/hp_oltis_sanctioned_budget"))
+       
+        budget_data_df = data_pre_processing(input_filename)
+        updated_budget_data_df = split_columns_and_rename(budget_data_df)
+        
+        updated_budget_data_df.to_csv(output_filename, index=False)
+            
+        return output_file
+        
+    if __name__ == "__main__":
+        output_file = clean_dataset()
