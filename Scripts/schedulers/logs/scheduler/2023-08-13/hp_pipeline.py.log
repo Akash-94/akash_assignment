@@ -1,0 +1,711 @@
+[2023-08-13T23:24:58.821+0200] {processor.py:157} INFO - Started process (PID=432047) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:24:58.822+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:24:58.823+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:24:58.823+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:24:58.832+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:24:58.926+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:24:58.926+0200] {manager.py:504} INFO - Created Permission View: can delete on DAG:hp_pipeline
+[2023-08-13T23:24:58.946+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:24:58.946+0200] {manager.py:504} INFO - Created Permission View: can edit on DAG:hp_pipeline
+[2023-08-13T23:24:58.962+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:24:58.962+0200] {manager.py:504} INFO - Created Permission View: can read on DAG:hp_pipeline
+[2023-08-13T23:24:58.975+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:24:58.975+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:24:58.981+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:24:58.981+0200] {dag.py:2763} INFO - Creating ORM DAG for hp_pipeline
+[2023-08-13T23:24:58.988+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:24:58.988+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-12T10:30:00+00:00, run_after=2023-08-13T10:30:00+00:00
+[2023-08-13T23:24:59.013+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.196 seconds
+[2023-08-13T23:25:45.458+0200] {processor.py:157} INFO - Started process (PID=432262) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:25:45.460+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:25:45.461+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:25:45.460+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:25:45.470+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:25:45.541+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:25:45.541+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:25:45.554+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:25:45.553+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-12T10:30:00+00:00, run_after=2023-08-13T10:30:00+00:00
+[2023-08-13T23:25:45.582+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.127 seconds
+[2023-08-13T23:26:19.110+0200] {processor.py:157} INFO - Started process (PID=432400) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:26:19.119+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:26:19.120+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:26:19.120+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:26:19.130+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:26:19.191+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:26:19.190+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:26:19.204+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:26:19.203+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-12T10:30:00+00:00, run_after=2023-08-13T10:30:00+00:00
+[2023-08-13T23:26:19.231+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.124 seconds
+[2023-08-13T23:26:58.949+0200] {processor.py:157} INFO - Started process (PID=432548) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:26:58.950+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:26:58.951+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:26:58.950+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:26:58.959+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:26:59.019+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:26:59.019+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:26:59.031+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:26:59.031+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:26:59.059+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.113 seconds
+[2023-08-13T23:27:44.541+0200] {processor.py:157} INFO - Started process (PID=432687) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:27:44.550+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:27:44.551+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:27:44.551+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:27:44.560+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:27:44.623+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:27:44.622+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:27:44.638+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:27:44.638+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:27:44.664+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.127 seconds
+[2023-08-13T23:28:16.923+0200] {processor.py:157} INFO - Started process (PID=432782) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:28:16.932+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:28:16.933+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:28:16.933+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:28:16.944+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:28:17.007+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:28:17.006+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:28:17.024+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:28:17.023+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:28:17.053+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.136 seconds
+[2023-08-13T23:28:54.591+0200] {processor.py:157} INFO - Started process (PID=432930) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:28:54.593+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:28:54.594+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:28:54.593+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:28:54.601+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:28:54.665+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:28:54.665+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:28:54.678+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:28:54.678+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:28:54.707+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.119 seconds
+[2023-08-13T23:29:32.658+0200] {processor.py:157} INFO - Started process (PID=433053) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:29:32.667+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:29:32.668+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:29:32.668+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:29:32.681+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:29:32.749+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:29:32.749+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:29:32.764+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:29:32.763+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:29:32.797+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.142 seconds
+[2023-08-13T23:30:10.971+0200] {processor.py:157} INFO - Started process (PID=433169) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:30:10.972+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:30:10.973+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:30:10.973+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:30:10.983+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:30:11.045+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:30:11.044+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:30:11.058+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:30:11.057+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:30:11.085+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.117 seconds
+[2023-08-13T23:30:29.586+0200] {processor.py:157} INFO - Started process (PID=433231) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:30:29.595+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:30:29.596+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:30:29.596+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:30:29.606+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:30:29.614+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:30:29.614+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:30:29.632+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:30:29.631+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:30:29.661+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.078 seconds
+[2023-08-13T23:31:12.397+0200] {processor.py:157} INFO - Started process (PID=433361) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:31:12.398+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:31:12.399+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:31:12.398+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:31:12.406+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:31:12.474+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:31:12.473+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:31:12.489+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:31:12.489+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:31:12.517+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.123 seconds
+[2023-08-13T23:31:53.110+0200] {processor.py:157} INFO - Started process (PID=433485) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:31:53.119+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:31:53.120+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:31:53.119+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:31:53.128+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:31:53.193+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:31:53.193+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:31:53.208+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:31:53.207+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:31:53.233+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.127 seconds
+[2023-08-13T23:32:28.813+0200] {processor.py:157} INFO - Started process (PID=433562) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:32:28.822+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:32:28.823+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:32:28.823+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:32:28.834+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:32:28.897+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:32:28.896+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:32:28.910+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:32:28.909+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:32:28.936+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.127 seconds
+[2023-08-13T23:32:44.307+0200] {processor.py:157} INFO - Started process (PID=433630) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:32:44.316+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:32:44.317+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:32:44.317+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:32:44.330+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:32:44.337+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:32:44.337+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:32:44.351+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:32:44.351+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:32:44.382+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.079 seconds
+[2023-08-13T23:33:01.844+0200] {processor.py:157} INFO - Started process (PID=433726) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:33:01.845+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:33:01.846+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:33:01.846+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:33:01.855+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:33:01.913+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:33:01.912+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:33:01.925+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:33:01.925+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:33:01.961+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.120 seconds
+[2023-08-13T23:33:41.183+0200] {processor.py:157} INFO - Started process (PID=433820) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:33:41.192+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:33:41.193+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:33:41.192+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:33:41.203+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:33:41.263+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:33:41.262+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:33:41.275+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:33:41.275+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:33:41.301+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.122 seconds
+[2023-08-13T23:34:13.957+0200] {processor.py:157} INFO - Started process (PID=433916) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:34:13.966+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:34:13.968+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:34:13.967+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:34:13.981+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:34:14.084+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:34:14.084+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:34:14.126+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:34:14.126+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:34:14.159+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.205 seconds
+[2023-08-13T23:34:47.679+0200] {processor.py:157} INFO - Started process (PID=434005) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:34:47.680+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:34:47.681+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:34:47.681+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:34:47.691+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:34:47.755+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:34:47.755+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:34:47.769+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:34:47.769+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:34:47.797+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.121 seconds
+[2023-08-13T23:35:26.156+0200] {processor.py:157} INFO - Started process (PID=434132) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:35:26.165+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:35:26.167+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:35:26.166+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:35:26.176+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:35:26.234+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:35:26.234+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:35:26.246+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:35:26.246+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:35:26.273+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.120 seconds
+[2023-08-13T23:36:00.979+0200] {processor.py:157} INFO - Started process (PID=434253) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:36:00.980+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:36:00.981+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:36:00.981+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:36:00.990+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:36:01.051+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:36:01.051+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:36:01.065+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:36:01.065+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:36:01.092+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.116 seconds
+[2023-08-13T23:36:36.626+0200] {processor.py:157} INFO - Started process (PID=434525) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:36:36.628+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:36:36.629+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:36:36.629+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:36:36.637+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:36:36.699+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:36:36.699+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:36:36.712+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:36:36.712+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:36:36.741+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.118 seconds
+[2023-08-13T23:36:57.074+0200] {processor.py:157} INFO - Started process (PID=434599) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:36:57.083+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:36:57.084+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:36:57.084+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:36:57.092+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:36:57.101+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:36:57.101+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:36:57.116+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:36:57.116+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:36:57.146+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.075 seconds
+[2023-08-13T23:37:34.358+0200] {processor.py:157} INFO - Started process (PID=434699) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:37:34.367+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:37:34.368+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:37:34.368+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:37:34.378+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:37:34.441+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:37:34.441+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:37:34.458+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:37:34.458+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:37:34.492+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.136 seconds
+[2023-08-13T23:38:11.459+0200] {processor.py:157} INFO - Started process (PID=434798) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:38:11.461+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:38:11.462+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:38:11.462+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:38:11.470+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:38:11.550+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:38:11.550+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:38:11.566+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:38:11.565+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:38:11.594+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.139 seconds
+[2023-08-13T23:38:47.826+0200] {processor.py:157} INFO - Started process (PID=434933) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:38:47.827+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:38:47.829+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:38:47.828+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:38:47.835+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:38:47.896+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:38:47.896+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:38:47.909+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:38:47.909+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:38:47.931+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.109 seconds
+[2023-08-13T23:39:05.304+0200] {processor.py:157} INFO - Started process (PID=435009) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:39:05.313+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:39:05.314+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:39:05.314+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:39:05.320+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:39:05.329+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:39:05.328+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:39:05.343+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:39:05.343+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:39:05.369+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.068 seconds
+[2023-08-13T23:39:43.546+0200] {processor.py:157} INFO - Started process (PID=435135) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:39:43.555+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:39:43.557+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:39:43.556+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:39:43.566+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:39:43.632+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:39:43.632+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:39:43.645+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:39:43.645+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:39:43.676+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.133 seconds
+[2023-08-13T23:40:28.908+0200] {processor.py:157} INFO - Started process (PID=435348) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:40:28.917+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:40:28.918+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:40:28.918+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:40:28.928+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:40:28.993+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:40:28.993+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:40:29.006+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:40:29.005+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:40:29.032+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.128 seconds
+[2023-08-13T23:41:02.089+0200] {processor.py:157} INFO - Started process (PID=435450) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:41:02.098+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:41:02.099+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:41:02.098+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:41:02.110+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:41:02.190+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:41:02.190+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:41:02.203+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:41:02.203+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:41:02.238+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.153 seconds
+[2023-08-13T23:41:33.086+0200] {processor.py:157} INFO - Started process (PID=435533) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:41:33.095+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:41:33.096+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:41:33.096+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:41:33.104+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:41:33.169+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:41:33.169+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:41:33.182+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:41:33.182+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:41:33.210+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.127 seconds
+[2023-08-13T23:42:07.106+0200] {processor.py:157} INFO - Started process (PID=435662) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:42:07.115+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:42:07.116+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:42:07.116+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:42:07.127+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:42:07.217+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:42:07.216+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:42:07.277+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:42:07.275+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:42:07.341+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.239 seconds
+[2023-08-13T23:42:43.867+0200] {processor.py:157} INFO - Started process (PID=435785) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:42:43.876+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:42:43.877+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:42:43.877+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:42:43.886+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:42:43.967+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:42:43.967+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:42:43.979+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:42:43.979+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:42:44.015+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.152 seconds
+[2023-08-13T23:43:17.082+0200] {processor.py:157} INFO - Started process (PID=435951) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:43:17.084+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:43:17.085+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:43:17.085+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:43:17.095+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:43:17.153+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:43:17.152+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:43:17.169+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:43:17.168+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:43:17.194+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.116 seconds
+[2023-08-13T23:43:49.156+0200] {processor.py:157} INFO - Started process (PID=436079) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:43:49.165+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:43:49.167+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:43:49.167+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:43:49.176+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:43:49.236+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:43:49.235+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:43:49.248+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:43:49.248+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:43:49.275+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.122 seconds
+[2023-08-13T23:44:19.129+0200] {processor.py:157} INFO - Started process (PID=436161) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:44:19.138+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:44:19.139+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:44:19.138+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:44:19.150+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:44:19.157+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:44:19.157+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:44:19.172+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:44:19.171+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:44:19.202+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.077 seconds
+[2023-08-13T23:44:58.448+0200] {processor.py:157} INFO - Started process (PID=436289) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:44:58.457+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:44:58.458+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:44:58.458+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:44:58.468+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:44:58.527+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:44:58.527+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:44:58.542+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:44:58.542+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:44:58.568+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.123 seconds
+[2023-08-13T23:45:34.506+0200] {processor.py:157} INFO - Started process (PID=436577) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:45:34.515+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:45:34.516+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:45:34.516+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:45:34.527+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:45:34.586+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:45:34.586+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:45:34.601+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:45:34.601+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:45:34.628+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.126 seconds
+[2023-08-13T23:46:08.445+0200] {processor.py:157} INFO - Started process (PID=436688) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:46:08.454+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:46:08.455+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:46:08.455+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:46:08.465+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:46:08.526+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:46:08.525+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:46:08.539+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:46:08.539+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:46:08.565+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.124 seconds
+[2023-08-13T23:46:26.248+0200] {processor.py:157} INFO - Started process (PID=436768) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:46:26.249+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:46:26.250+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:46:26.250+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:46:26.259+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:46:26.264+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:46:26.264+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:46:26.278+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:46:26.278+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:46:26.309+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.065 seconds
+[2023-08-13T23:46:59.293+0200] {processor.py:157} INFO - Started process (PID=436869) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:46:59.302+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:46:59.303+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:46:59.302+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:46:59.314+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:46:59.376+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:46:59.376+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:46:59.389+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:46:59.388+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:46:59.427+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.137 seconds
+[2023-08-13T23:48:01.087+0200] {processor.py:157} INFO - Started process (PID=437029) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:48:01.089+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:48:01.090+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:48:01.090+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:48:01.099+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:48:01.158+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:48:01.158+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:48:01.171+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:48:01.171+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:48:01.201+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.118 seconds
+[2023-08-13T23:48:37.762+0200] {processor.py:157} INFO - Started process (PID=437446) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:48:37.771+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:48:37.772+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:48:37.771+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:48:37.783+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:48:37.845+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:48:37.845+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:48:37.857+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:48:37.857+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:48:37.886+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.127 seconds
+[2023-08-13T23:50:02.136+0200] {processor.py:157} INFO - Started process (PID=437790) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:50:02.145+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:50:02.146+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:50:02.146+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:50:02.157+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:50:02.226+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:50:02.226+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:50:02.238+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:50:02.238+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:50:02.265+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.133 seconds
+[2023-08-13T23:50:35.325+0200] {processor.py:157} INFO - Started process (PID=437929) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:50:35.334+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:50:35.335+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:50:35.335+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:50:35.346+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:50:35.411+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:50:35.411+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:50:35.424+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:50:35.424+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:50:35.457+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.135 seconds
+[2023-08-13T23:51:09.842+0200] {processor.py:157} INFO - Started process (PID=438092) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:51:09.847+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:51:09.848+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:51:09.847+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:51:09.857+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:51:09.927+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:51:09.927+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:51:09.939+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:51:09.939+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:51:09.966+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.128 seconds
+[2023-08-13T23:51:47.595+0200] {processor.py:157} INFO - Started process (PID=438180) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:51:47.604+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:51:47.605+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:51:47.604+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:51:47.614+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:51:47.740+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:51:47.740+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:51:47.765+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:51:47.765+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:51:47.806+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.215 seconds
+[2023-08-13T23:52:33.699+0200] {processor.py:157} INFO - Started process (PID=438285) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:52:33.708+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:52:33.709+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:52:33.709+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:52:33.720+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:52:33.844+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:52:33.844+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:52:33.871+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:52:33.871+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:52:33.911+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.215 seconds
+[2023-08-13T23:53:12.080+0200] {processor.py:157} INFO - Started process (PID=438388) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:53:12.089+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:53:12.090+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:53:12.090+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:53:12.100+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:53:12.163+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:53:12.163+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:53:12.175+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:53:12.175+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:53:12.213+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.136 seconds
+[2023-08-13T23:53:44.955+0200] {processor.py:157} INFO - Started process (PID=438485) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:53:44.963+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:53:44.965+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:53:44.964+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:53:44.976+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:53:45.044+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:53:45.043+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:53:45.060+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:53:45.059+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:53:45.098+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.146 seconds
+[2023-08-13T23:54:31.292+0200] {processor.py:157} INFO - Started process (PID=438600) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:54:31.302+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:54:31.303+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:54:31.302+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:54:31.313+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:54:31.377+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:54:31.377+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:54:31.390+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:54:31.390+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:54:31.420+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.131 seconds
+[2023-08-13T23:55:05.939+0200] {processor.py:157} INFO - Started process (PID=438698) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:55:05.948+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:55:05.949+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:55:05.949+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:55:05.960+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:55:06.017+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:55:06.017+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:55:06.029+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:55:06.029+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:55:06.059+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.124 seconds
+[2023-08-13T23:55:39.167+0200] {processor.py:157} INFO - Started process (PID=438794) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:55:39.176+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:55:39.177+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:55:39.176+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:55:39.187+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:55:39.246+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:55:39.246+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:55:39.260+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:55:39.260+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:55:39.283+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.120 seconds
+[2023-08-13T23:56:13.003+0200] {processor.py:157} INFO - Started process (PID=438888) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:56:13.012+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:56:13.013+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:56:13.013+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:56:13.025+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:56:13.085+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:56:13.085+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:56:13.097+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:56:13.097+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:56:13.125+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.125 seconds
+[2023-08-13T23:56:47.416+0200] {processor.py:157} INFO - Started process (PID=438998) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:56:47.425+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:56:47.426+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:56:47.426+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:56:47.435+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:56:47.495+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:56:47.495+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:56:47.508+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:56:47.508+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:56:47.538+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.126 seconds
+[2023-08-13T23:57:21.431+0200] {processor.py:157} INFO - Started process (PID=439112) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:57:21.432+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:57:21.433+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:57:21.433+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:57:21.442+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:57:21.514+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:57:21.514+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:57:21.531+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:57:21.531+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:57:21.567+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.141 seconds
+[2023-08-13T23:57:55.428+0200] {processor.py:157} INFO - Started process (PID=439255) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:57:55.437+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:57:55.438+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:57:55.438+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:57:55.448+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:57:55.533+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:57:55.533+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:57:55.548+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:57:55.548+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:57:55.578+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.154 seconds
+[2023-08-13T23:58:27.667+0200] {processor.py:157} INFO - Started process (PID=439410) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:58:27.670+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:58:27.671+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:58:27.671+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:58:27.680+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:58:27.743+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:58:27.743+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:58:27.756+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:58:27.756+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:58:27.782+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.119 seconds
+[2023-08-13T23:58:58.734+0200] {processor.py:157} INFO - Started process (PID=439532) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:58:58.743+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:58:58.743+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:58:58.743+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:58:58.753+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:58:58.813+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:58:58.813+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:58:58.827+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:58:58.827+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:58:58.854+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.123 seconds
+[2023-08-13T23:59:30.977+0200] {processor.py:157} INFO - Started process (PID=439764) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:59:30.986+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-13T23:59:30.988+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:59:30.987+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:59:30.999+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-13T23:59:31.059+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:59:31.059+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-13T23:59:31.073+0200] {logging_mixin.py:150} INFO - [2023-08-13T23:59:31.072+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-13T23:59:31.103+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.130 seconds
+[2023-08-14T00:00:03.790+0200] {processor.py:157} INFO - Started process (PID=440095) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:00:03.792+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:00:03.793+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:00:03.792+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:00:03.799+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:00:03.863+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:00:03.863+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:00:03.877+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:00:03.877+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:00:03.912+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.125 seconds
+[2023-08-14T00:00:39.511+0200] {processor.py:157} INFO - Started process (PID=440305) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:00:39.513+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:00:39.514+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:00:39.513+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:00:39.523+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:00:39.582+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:00:39.582+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:00:39.595+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:00:39.595+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:00:39.630+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.123 seconds
+[2023-08-14T00:01:17.944+0200] {processor.py:157} INFO - Started process (PID=440442) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:01:17.954+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:01:17.955+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:01:17.955+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:01:17.965+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:01:18.028+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:01:18.028+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:01:18.040+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:01:18.040+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:01:18.063+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.122 seconds
+[2023-08-14T00:01:51.783+0200] {processor.py:157} INFO - Started process (PID=440596) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:01:51.792+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:01:51.793+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:01:51.793+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:01:51.803+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:01:51.864+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:01:51.864+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:01:51.877+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:01:51.877+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:01:51.901+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.121 seconds
+[2023-08-14T00:02:24.608+0200] {processor.py:157} INFO - Started process (PID=440686) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:02:24.609+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:02:24.610+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:02:24.610+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:02:24.620+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:02:24.681+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:02:24.681+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:02:24.694+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:02:24.693+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:02:24.721+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.117 seconds
+[2023-08-14T00:02:58.676+0200] {processor.py:157} INFO - Started process (PID=440805) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:02:58.678+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:02:58.679+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:02:58.678+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:02:58.686+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:02:58.746+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:02:58.746+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:02:58.759+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:02:58.759+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:02:58.788+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.115 seconds
+[2023-08-14T00:03:31.942+0200] {processor.py:157} INFO - Started process (PID=440897) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:03:31.943+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:03:31.944+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:03:31.943+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:03:31.949+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:03:32.012+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:03:32.012+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:03:32.025+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:03:32.025+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:03:32.053+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.114 seconds
+[2023-08-14T00:04:07.360+0200] {processor.py:157} INFO - Started process (PID=440993) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:04:07.369+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:04:07.371+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:04:07.370+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:04:07.380+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:04:07.451+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:04:07.451+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:04:07.464+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:04:07.464+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:04:07.497+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.140 seconds
+[2023-08-14T00:04:39.849+0200] {processor.py:157} INFO - Started process (PID=441143) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:04:39.858+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:04:39.859+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:04:39.859+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:04:39.869+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:04:39.934+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:04:39.934+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:04:39.948+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:04:39.948+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:04:39.984+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.138 seconds
+[2023-08-14T00:05:13.233+0200] {processor.py:157} INFO - Started process (PID=441228) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:05:13.235+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:05:13.236+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:05:13.236+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:05:13.243+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:05:13.307+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:05:13.307+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:05:13.319+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:05:13.319+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:05:13.344+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.114 seconds
+[2023-08-14T00:05:46.442+0200] {processor.py:157} INFO - Started process (PID=441306) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:05:46.444+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:05:46.445+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:05:46.444+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:05:46.454+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:05:46.532+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:05:46.532+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:05:46.546+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:05:46.546+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:05:46.578+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.139 seconds
+[2023-08-14T00:06:17.901+0200] {processor.py:157} INFO - Started process (PID=441428) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:06:17.902+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:06:17.903+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:06:17.903+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:06:17.911+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:06:17.980+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:06:17.980+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:06:17.999+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:06:17.998+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:06:18.029+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.132 seconds
+[2023-08-14T00:06:52.797+0200] {processor.py:157} INFO - Started process (PID=441515) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:06:52.806+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:06:52.808+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:06:52.807+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:06:52.817+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:06:52.892+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:06:52.892+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:06:52.905+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:06:52.905+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:06:52.943+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.149 seconds
+[2023-08-14T00:07:29.804+0200] {processor.py:157} INFO - Started process (PID=441609) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:07:29.812+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:07:29.813+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:07:29.813+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:07:29.824+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:07:29.888+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:07:29.888+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:07:29.902+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:07:29.902+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:07:29.928+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.128 seconds
+[2023-08-14T00:08:03.792+0200] {processor.py:157} INFO - Started process (PID=441756) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:08:03.801+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:08:03.802+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:08:03.802+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:08:03.808+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:08:03.870+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:08:03.870+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:08:03.882+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:08:03.882+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:08:03.911+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.122 seconds
+[2023-08-14T00:08:36.040+0200] {processor.py:157} INFO - Started process (PID=441863) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:08:36.049+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:08:36.051+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:08:36.050+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:08:36.061+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:08:36.130+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:08:36.129+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:08:36.143+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:08:36.142+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:08:36.171+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.134 seconds
+[2023-08-14T00:09:08.304+0200] {processor.py:157} INFO - Started process (PID=441949) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:09:08.306+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:09:08.307+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:09:08.306+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:09:08.317+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:09:08.377+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:09:08.377+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:09:08.393+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:09:08.393+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:09:08.422+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.120 seconds
+[2023-08-14T00:09:44.089+0200] {processor.py:157} INFO - Started process (PID=442087) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:09:44.095+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:09:44.096+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:09:44.096+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:09:44.104+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:09:44.173+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:09:44.173+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:09:44.185+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:09:44.185+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:09:44.211+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.126 seconds
+[2023-08-14T00:10:16.722+0200] {processor.py:157} INFO - Started process (PID=442199) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:10:16.731+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:10:16.733+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:10:16.732+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:10:16.743+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:10:16.805+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:10:16.805+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:10:16.819+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:10:16.819+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:10:16.847+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.129 seconds
+[2023-08-14T00:11:03.039+0200] {processor.py:157} INFO - Started process (PID=442313) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:11:03.048+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:11:03.050+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:11:03.049+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:11:03.062+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:11:03.125+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:11:03.124+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:11:03.138+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:11:03.138+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:11:03.167+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.131 seconds
+[2023-08-14T00:11:39.210+0200] {processor.py:157} INFO - Started process (PID=442502) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:11:39.219+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:11:39.220+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:11:39.220+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:11:39.231+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:11:39.287+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:11:39.287+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:11:39.301+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:11:39.301+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:11:39.341+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.135 seconds
+[2023-08-14T00:12:13.054+0200] {processor.py:157} INFO - Started process (PID=442652) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:12:13.063+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:12:13.064+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:12:13.064+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:12:13.073+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:12:13.136+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:12:13.136+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:12:13.149+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:12:13.148+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:12:13.169+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.119 seconds
+[2023-08-14T00:12:48.980+0200] {processor.py:157} INFO - Started process (PID=442756) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:12:48.981+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:12:48.983+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:12:48.982+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:12:48.990+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:12:49.056+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:12:49.056+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:12:49.070+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:12:49.070+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:12:49.098+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.122 seconds
+[2023-08-14T00:13:26.338+0200] {processor.py:157} INFO - Started process (PID=442950) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:13:26.347+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:13:26.348+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:13:26.348+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:13:26.356+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:13:26.424+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:13:26.423+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:13:26.437+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:13:26.437+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:13:26.463+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.128 seconds
+[2023-08-14T00:14:02.437+0200] {processor.py:157} INFO - Started process (PID=443160) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:14:02.446+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:14:02.447+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:14:02.447+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:14:02.456+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:14:02.526+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:14:02.526+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:14:02.539+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:14:02.539+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:14:02.568+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.135 seconds
+[2023-08-14T00:14:34.650+0200] {processor.py:157} INFO - Started process (PID=443400) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:14:34.652+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:14:34.653+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:14:34.653+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:14:34.657+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:14:34.716+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:14:34.716+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:14:34.729+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:14:34.729+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:14:34.752+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.105 seconds
+[2023-08-14T00:15:07.856+0200] {processor.py:157} INFO - Started process (PID=443802) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:15:07.865+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:15:07.866+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:15:07.866+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:15:07.876+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:15:07.942+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:15:07.942+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:15:07.955+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:15:07.955+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:15:07.971+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.118 seconds
+[2023-08-14T00:15:40.649+0200] {processor.py:157} INFO - Started process (PID=443906) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:15:40.651+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:15:40.652+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:15:40.652+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:15:40.659+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:15:40.753+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:15:40.752+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:15:40.766+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:15:40.766+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:15:40.798+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.152 seconds
+[2023-08-14T00:16:11.647+0200] {processor.py:157} INFO - Started process (PID=444061) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:16:11.656+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:16:11.657+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:16:11.657+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:16:11.667+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:16:11.737+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:16:11.736+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:16:11.752+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:16:11.752+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:16:11.782+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.138 seconds
+[2023-08-14T00:16:43.690+0200] {processor.py:157} INFO - Started process (PID=444407) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:16:43.691+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:16:43.692+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:16:43.692+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:16:43.700+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:16:43.761+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:16:43.761+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:16:43.774+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:16:43.773+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:16:43.788+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.102 seconds
+[2023-08-14T00:17:18.766+0200] {processor.py:157} INFO - Started process (PID=444498) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:17:18.776+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:17:18.777+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:17:18.777+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:17:18.788+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:17:18.855+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:17:18.855+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:17:18.870+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:17:18.870+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:17:18.887+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.124 seconds
+[2023-08-14T00:17:52.114+0200] {processor.py:157} INFO - Started process (PID=444641) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:17:52.123+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:17:52.124+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:17:52.123+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:17:52.135+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:17:52.202+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:17:52.202+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:17:52.216+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:17:52.216+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:17:52.234+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.124 seconds
+[2023-08-14T00:18:24.689+0200] {processor.py:157} INFO - Started process (PID=444699) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:18:24.691+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:18:24.692+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:18:24.691+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:18:24.700+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:18:24.761+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:18:24.761+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:18:24.774+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:18:24.773+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:18:24.798+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.114 seconds
+[2023-08-14T00:18:59.414+0200] {processor.py:157} INFO - Started process (PID=444803) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:18:59.423+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:18:59.424+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:18:59.423+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:18:59.435+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:18:59.496+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:18:59.496+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:18:59.511+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:18:59.510+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:18:59.531+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.121 seconds
+[2023-08-14T00:19:30.473+0200] {processor.py:157} INFO - Started process (PID=444994) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:19:30.482+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:19:30.483+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:19:30.482+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:19:30.492+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:19:30.553+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:19:30.553+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:19:30.566+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:19:30.566+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:19:30.584+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.115 seconds
+[2023-08-14T00:45:02.209+0200] {processor.py:157} INFO - Started process (PID=450018) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:45:02.211+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:45:02.212+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:45:02.211+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:45:02.223+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:45:02.349+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:45:02.348+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:45:02.531+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:45:02.531+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:45:02.580+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.379 seconds
+[2023-08-14T00:45:36.897+0200] {processor.py:157} INFO - Started process (PID=450360) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:45:36.906+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:45:36.908+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:45:36.907+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:45:36.918+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:45:37.064+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:45:37.063+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:45:37.075+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:45:37.075+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:45:37.110+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.217 seconds
+[2023-08-14T00:46:14.257+0200] {processor.py:157} INFO - Started process (PID=450646) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:46:14.265+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:46:14.267+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:46:14.266+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:46:14.276+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:46:14.351+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:46:14.351+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:46:14.458+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:46:14.458+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:46:14.489+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.236 seconds
+[2023-08-14T00:46:50.271+0200] {processor.py:157} INFO - Started process (PID=450747) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:46:50.280+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:46:50.281+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:46:50.280+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:46:50.291+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:46:50.443+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:46:50.442+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:46:50.456+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:46:50.456+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:46:50.485+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.217 seconds
+[2023-08-14T00:47:23.972+0200] {processor.py:157} INFO - Started process (PID=450857) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:47:23.973+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:47:23.974+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:47:23.974+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:47:23.979+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:47:24.038+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:47:24.038+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:47:24.054+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:47:24.054+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:47:24.165+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.197 seconds
+[2023-08-14T00:47:58.980+0200] {processor.py:157} INFO - Started process (PID=450933) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:47:58.989+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:47:58.990+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:47:58.990+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:47:59.001+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:47:59.069+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:47:59.069+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:47:59.161+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:47:59.161+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:47:59.190+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.214 seconds
+[2023-08-14T00:48:34.363+0200] {processor.py:157} INFO - Started process (PID=451015) to work on /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:48:34.372+0200] {processor.py:826} INFO - Processing file /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py for tasks to queue
+[2023-08-14T00:48:34.373+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:48:34.373+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:48:34.384+0200] {processor.py:836} INFO - DAG(s) dict_keys(['hp_pipeline']) retrieved from /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py
+[2023-08-14T00:48:34.532+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:48:34.532+0200] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-14T00:48:34.544+0200] {logging_mixin.py:150} INFO - [2023-08-14T00:48:34.544+0200] {dag.py:3504} INFO - Setting next_dagrun for hp_pipeline to 2023-08-13T10:30:00+00:00, run_after=2023-08-14T10:30:00+00:00
+[2023-08-14T00:48:34.576+0200] {processor.py:179} INFO - Processing /home/akhilesh/personal/Assignment/Scripts/schedulers/dags/hp_pipeline.py took 0.217 seconds
