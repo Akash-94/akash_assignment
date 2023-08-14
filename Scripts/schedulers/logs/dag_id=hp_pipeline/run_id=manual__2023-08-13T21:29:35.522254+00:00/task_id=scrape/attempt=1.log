@@ -1,0 +1,28 @@
+[2023-08-13T23:29:38.125+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hp_pipeline.scrape manual__2023-08-13T21:29:35.522254+00:00 [queued]>
+[2023-08-13T23:29:38.135+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hp_pipeline.scrape manual__2023-08-13T21:29:35.522254+00:00 [queued]>
+[2023-08-13T23:29:38.135+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-13T23:29:38.157+0200] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): scrape> on 2023-08-13 21:29:35.522254+00:00
+[2023-08-13T23:29:38.162+0200] {standard_task_runner.py:57} INFO - Started process 433082 to run task
+[2023-08-13T23:29:38.166+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'hp_pipeline', 'scrape', 'manual__2023-08-13T21:29:35.522254+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/hp_pipeline.py', '--cfg-path', '/tmp/tmp4ovg9nu_']
+[2023-08-13T23:29:38.167+0200] {standard_task_runner.py:85} INFO - Job 10: Subtask scrape
+[2023-08-13T23:29:38.212+0200] {task_command.py:410} INFO - Running <TaskInstance: hp_pipeline.scrape manual__2023-08-13T21:29:35.522254+00:00 [running]> on host akhilesh-ThinkPad-E14-Gen-3
+[2023-08-13T23:29:38.265+0200] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='hp_pipeline' AIRFLOW_CTX_TASK_ID='scrape' AIRFLOW_CTX_EXECUTION_DATE='2023-08-13T21:29:35.522254+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-13T21:29:35.522254+00:00'
+[2023-08-13T23:29:38.267+0200] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-08-13T23:29:38.268+0200] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo $scraper_path && cd $scraper_path && scrapy crawl hp_treasury']
+[2023-08-13T23:29:38.276+0200] {subprocess.py:86} INFO - Output:
+[2023-08-13T23:29:38.276+0200] {subprocess.py:93} INFO - 
+[2023-08-13T23:29:38.613+0200] {subprocess.py:93} INFO - Scrapy 2.10.0 - no active project
+[2023-08-13T23:29:38.613+0200] {subprocess.py:93} INFO - 
+[2023-08-13T23:29:38.613+0200] {subprocess.py:93} INFO - Unknown command: crawl
+[2023-08-13T23:29:38.613+0200] {subprocess.py:93} INFO - 
+[2023-08-13T23:29:38.613+0200] {subprocess.py:93} INFO - Use "scrapy" to see available commands
+[2023-08-13T23:29:38.692+0200] {subprocess.py:97} INFO - Command exited with return code 2
+[2023-08-13T23:29:38.700+0200] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/akhilesh/py39/lib/python3.9/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2023-08-13T23:29:38.704+0200] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=hp_pipeline, task_id=scrape, execution_date=20230813T212935, start_date=20230813T212938, end_date=20230813T212938
+[2023-08-13T23:29:38.727+0200] {standard_task_runner.py:104} ERROR - Failed to execute job 10 for task scrape (Bash command failed. The command returned a non-zero exit code 2.; 433082)
+[2023-08-13T23:29:38.739+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-08-13T23:29:38.753+0200] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
