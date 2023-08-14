@@ -16,18 +16,18 @@ Usage
 Scraping
 --------
 
-**class BudgetSpider(Spider)**
+**Budget Spider**
 
-This module contains a Scrapy Spider named `BudgetSpider` that is designed to scrape budget allocation data from the Himachal Pradesh Treasury website.
+The module ```BudgetSpider``` contains a Scrapy Spider named ```hp_treasury``` that is designed to scrape budget allocation data from the Himachal Pradesh Treasury website.
 
 .. code-block:: python
 
         class BudgetSpider(Spider):
-        name = 'hp_treasury'
+            name = 'hp_treasury'
 
-**def start_requests(self)**
+**Start Requests**
 
-The spider starts by sending a request to the specified URL and receives response.
+The spider starts by sending a request to the specified URL and receives a response.
 
 .. code-block:: python
 
@@ -35,9 +35,9 @@ The spider starts by sending a request to the specified URL and receives respons
             url = "https://himkosh.nic.in/eHPOLTIS/PublicReports/wfrmBudgetAllocationbyFD.aspx"
             yield Request(url=url, callback=self.parse)
 
-**def parse(self, response)**
+**Parsing**
 
-Upon receiving the response, the spider extracts and sends the necessary post data to retrive budget data for a specific date range.
+Upon receiving the response, the spider extracts and sends the necessary post data to retrieve budget data for a specific date range.
 
 .. code-block:: python
 
@@ -58,7 +58,7 @@ Upon receiving the response, the spider extracts and sends the necessary post da
             }
             yield FormRequest.from_response(response, url=response.url, formdata=post_data, callback=self.parse_results)
 
-**def parse_results(self, response)**
+**Parsing Results**
 
 The function parses the results page, extracts budget allocation data, cleans it, and writes it to a CSV file.
 
