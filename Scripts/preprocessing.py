@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 
 
-def data_pre_processing(file):
+def data_pre_processing(filename):
     '''Reads the input CSV file, performs data pre-processing on rows and columns, and returns a clean DataFrame.'''
     
     logger = logging.getLogger("DataPreProcessing")
@@ -66,22 +66,18 @@ def clean_dataset():
     
     logger = logging.getLogger("CleanDataset")
 
-    try:
-        input_file = path.abspath(path.join("../data/treasury_data.csv"))
-        output_file = path.abspath(path.join("../data/hp_oltis_sanctioned_budget"))
+    input_filename = path.abspath(path.join("../data/treasury_data.csv"))
+    output_filename = path.abspath(path.join("../data/hp_oltis_sanctioned_budget"))
         
-        logger.info("Starting data cleaning and processing...")
+    logger.info("Starting data cleaning and processing...")
 
-        budget_data_df = data_pre_processing(input_file)
-        budget_data_df = split_columns_and_rename(budget_data_df)
+    budget_data_df = data_pre_processing(input_filename)
+    updated_budget_data_df = split_columns_and_rename(budget_data_df)
     
-        logger.info("Writing processed data to CSV...")
-        budget_data_df.to_csv(output_file, index=False)
+    logger.info("Writing processed data to CSV...")
+    budget_data_df.to_csv(output_filename, index=False)
 
-        logger.info("Data cleaning and processing completed...")
-
-    except Exception as error:
-        logger.error(f"An error occurred: {error}")
+    logger.info("Data cleaning and processing completed...")
         
     return output_file
 
