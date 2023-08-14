@@ -1,4 +1,5 @@
 .idea
 
 /Scripts/schedulers/dags/__pycache__/
+/Scripts/scrapers/scrapers/__pycache__/
 
