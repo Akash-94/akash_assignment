@@ -29,6 +29,9 @@ Database Write Script: The write_db.py script reads the preprocessed data CSV fi
    
 Airflow DAG: The data pipeline is orchestrated using an Apache Airflow DAG named ```hp_pipeline``` It schedules the Scrapy spider, preprocessing script, and database write script to run sequentially.
 
+Follow the link below for more information
+
+[Airflow] - https://github.com/Akash-94/akash_assignment/blob/main/Docs/airflow.rst#airflow-dag-documentation-hp-data-pipeline
 
 
 
