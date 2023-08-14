@@ -75,7 +75,7 @@ def clean_dataset():
     updated_budget_data_df = split_columns_and_rename(budget_data_df)
     
     logger.info("Writing processed data to CSV...")
-    budget_data_df.to_csv(output_filename, index=False)
+    updated_budget_data_df.to_csv(output_filename, index=False)
 
     logger.info("Data cleaning and processing completed...")
         
