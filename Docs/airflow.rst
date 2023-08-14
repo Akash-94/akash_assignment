@@ -11,7 +11,7 @@ Prerequisites
 
 1. **Airflow Installation**
 
-Apache airflow can be installed using the command show below
+Apache airflow can be installed using the command shown below
 
 .. code-block:: python
 
@@ -27,6 +27,14 @@ Airflow uses a database to store its metadata. The database is configured in the
 
         airflow db init
         airflow db upgrade
+
+3. **Airflow - Create User**
+
+Create user attributes such as username, role, e-mail, first name, last name, and password.
+
+.. code-block:: python
+
+        airflow users create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin
 
 
 Creating and Running a DAG (Example)
@@ -82,7 +90,7 @@ The HP Data Pipeline DAG consists of three main tasks:
 
 Scraping Task (scrape):
 
-Scraping task is responsible for initiating the data scraping process using a web scraping script. It invokes the scrapy crawl hp_treasury command to scrape data from a specified website.
+The scraping task is responsible for initiating the data scraping process using a web scraping script. It invokes the scrapy crawl hp_treasury command to scrape data from a specified website.
 The scraping task initiates subsequent processing steps by providing the raw data for further analysis.
 
 Preprocessing Task (preprocessing):
@@ -92,8 +100,8 @@ The preprocessing task invokes the python preprocessing.py command, which applie
 
 Write to Database Task (write_db):
 
-After the data is preprocessed, the write to database task is triggered. It takes the cleaned and transformed data and writes it to a database for persistent storage.
-The task invokes the python write_db.py command, which connects to the database and inserts the processed data.
+After the data is preprocessed, the write-to-database task is triggered. It takes the cleaned and transformed data and writes it to a database for persistent storage.
+The task invokes the Python write_db.py command, which connects to the database and inserts the processed data.
 
 
 DAG Configurations
@@ -125,7 +133,7 @@ Task 1. `Scrape`: scrapes budget data from a website using a Scrapy spider.
 
     SCRAPING_TASK = BashOperator(
         task_id = 'scrape',
-        bash_command = "path.abspath(path.join(path.dirname(__file__), '../../scrapers')) && scrapy crawl hp_treasury"
+        bash_command = cd "path.abspath(path.join(path.dirname(__file__), '../../scrapers')) && scrapy crawl hp_treasury"
     )
 
 Task 2: `Preprocessing`: Preprocesses the scraped data to clean and transform it.
@@ -134,7 +142,7 @@ Task 2: `Preprocessing`: Preprocesses the scraped data to clean and transform it
 
     PREPROCESSING_TASK = BashOperator(
         task_id = 'preprocessing',
-        bash_command = "path.abspath(path.join(path.dirname(__file__), '../schedulers/dags')) && python preprocessing.py"
+        bash_command = cd "path.abspath(path.join(path.dirname(__file__), '../schedulers/dags')) && python preprocessing.py"
     )
     
 Task 3. `write_db`: Writes the processed data to a database.
@@ -143,15 +151,15 @@ Task 3. `write_db`: Writes the processed data to a database.
 
      WRITE_DB = BashOperator(
         task_id = 'write_db',
-        bash_command = "path.abspath(path.join(path.dirname(__file__), '../schedulers/dags')) && python write_db.py"
+        bash_command = cd "path.abspath(path.join(path.dirname(__file__), '../schedulers/dags')) && python write_db.py"
     )
 
 
 Setting Dependencies
 ---------------------
 
-The dependencies are set to direct the DAG to run indivdual tasks in a pre-defined manner. In this case
-Scrape task is set to execute first, upon its successful execution preprocessing task is executed and finally write_db is executed as the last task.
+The dependencies are set to direct the DAG to run individual tasks in a pre-defined manner. In this case
+Scrape task is set to execute first, upon its successful execution preprocessing task is executed, and finally write_db is executed as the last task.
 
 .. code-block:: python
 
