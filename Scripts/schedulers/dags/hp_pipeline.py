@@ -4,12 +4,6 @@ from airflow import DAG
 from airflow.operators.bash_operator import BashOperator
 import logging
 
-logging.basicConfig(
-    level=logging.INFO,
-    filename='airflow_pipeline.log',
-    filemode='w',
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
 
 SCRAPER_PATH = path.abspath(path.join(path.dirname(__file__), '../../scrapers'))
 
@@ -27,15 +21,15 @@ with DAG('hp_pipeline',
 
     SCRAPING_TASK = BashOperator(
         task_id = 'scrape',
-        bash_command = "path.abspath(path.join(path.dirname(__file__), '../../scrapers')) && scrapy crawl hp_treasury"
+        bash_command = cd "path.abspath(path.join(path.dirname(__file__), '../../scrapers')) && scrapy crawl hp_treasury"
     )
     PREPROCESSING_TASK = BashOperator(
         task_id = 'preprocessing',
-        bash_command = "path.abspath(path.join(path.dirname(__file__), '../schedulers/dags')) && python preprocessing.py"
+        bash_command = cd "path.abspath(path.join(path.dirname(__file__), '../schedulers/dags')) && python preprocessing.py"
     )
     WRITE_DB = BashOperator(
         task_id = 'write_db',
-        bash_command = "path.abspath(path.join(path.dirname(__file__), '../schedulers/dags')) && python write_db.py"
+        bash_command = cd "path.abspath(path.join(path.dirname(__file__), '../schedulers/dags')) && python write_db.py"
     )
 
 SCRAPING_TASK.set_downstream(PREPROCESSING_TASK)
