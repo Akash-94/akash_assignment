@@ -6,8 +6,6 @@ This module contains functions to perform database operations such as creating a
 Database Operation Steps
 -------------------------
 
-Step 1. **def write_db(db_name, df)**
-
 Write data from a pandas DataFrame to a SQLite database.
 
 Args
@@ -28,8 +26,6 @@ Args
 
 Main Program
 ------------
-
-Step 1. **if __name__ == "__main__"**
 
 Main program to write data from a CSV file to a SQLite database.
 
