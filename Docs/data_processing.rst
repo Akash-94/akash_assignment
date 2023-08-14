@@ -16,6 +16,7 @@ The function reads the CSV file using the pandas library, skips unnecessary rows
 .. code-block:: python
 
     def data_pre_processing(filename):  
+
         df = pd.read_csv(file, skiprows=1, header=None)
         df = df.drop([0, 1])               # drops 1st & Grand Total rows
         df = df.drop([8,9,10,11], axis=1)  # drops empty columns
@@ -37,6 +38,7 @@ The function splits the 'DmdCd' & 'HOA' columns based on  '-' delimiter, renames
 .. code-block:: python
 
     def split_columns_and_rename(df):
+
         df[['DemandCode', 'Demand']] = df['DmdCd'].str.split('-', n=1, expand=True)
         df = df.drop(columns='DmdCd')
         split_columns = df["HOA"].str.split("-", expand=True)  
@@ -62,7 +64,6 @@ Finally, the main processing function Orchestrates the data processing steps usi
 .. code-block:: python
 
     def clean_dataset():
-        '''Orchestrates the data processing steps using the above functions and returns the final processed DataFrame.'''
         
         input_filename = path.abspath(path.join("../data/treasury_data.csv"))
         output_filename = path.abspath(path.join("../data/hp_oltis_sanctioned_budget"))
