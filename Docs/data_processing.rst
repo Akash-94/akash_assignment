@@ -8,14 +8,14 @@ This script reads a CSV file containing budget data, performs data pre-processin
 Data Pre-processing Steps
 --------------------------
 
-Steps 1. **data_pre_processing(file)**
+Steps 1. 
 
 Reads the input CSV file, performs data pre-processing on rows and columns, and returns a clean DataFrame.
-The function read the CSV file using pandas library, skips unnecessary rows, and drops empty columns. Further it renames the columns for better understanding, fills missing values in the 'DmdCD' column. Finally filters out rows with 'Total' in the 'HOA' column.
+The function reads the CSV file using the pandas library, skips unnecessary rows, and drops empty columns. Further, it renames the columns for better understanding and fills in missing values in the 'DmdCD' column. Finally filters out rows with 'Total' in the 'HOA' column.
 
 .. code-block:: python
 
-    def data_pre_processing(file):  
+    def data_pre_processing(filename):  
         df = pd.read_csv(file, skiprows=1, header=None)
         df = df.drop([0, 1])               # drops 1st & Grand Total rows
         df = df.drop([8,9,10,11], axis=1)  # drops empty columns
@@ -30,9 +30,9 @@ The function read the CSV file using pandas library, skips unnecessary rows, and
 
         return df
 
-Step 2. **split_columns_and_rename(df)**
+Step 2. 
 
-The function splits the 'DmdCd' & 'HOA' columns based on  '-' delimiter, renames the split columns and return the re-ordered dataframe. Initially the function splits 'DmdCd' column and renames it into 'DemandCode' and 'Demand', next it splits 'HOA' column creates new columns for each split, the split columns are renamed accordingly. Unnessary columns are dropped and remaning columns are re-ordered.
+The function splits the 'DmdCd' & 'HOA' columns based on  '-' delimiter, renames the split columns, and returns the re-ordered dataframe. Initially, the function splits the 'DmdCd' column and renames it into 'DemandCode' and 'Demand', next it splits 'HOA' column creating new columns for each split, and the split columns are renamed accordingly. Unnecessary columns are dropped and the remaining columns are re-ordered.
 
 .. code-block:: python
 
@@ -55,24 +55,22 @@ The function splits the 'DmdCd' & 'HOA' columns based on  '-' delimiter, renames
   
         return df
 
-Step 3. **clean_dataset()**
+Step 3.
 
-This will be the mainprocessing function and it Orchestrates the data processing steps using the above functions, returns processed DataFrame.
+Finally, the main processing function Orchestrates the data processing steps using the above functions, and returns processed DataFrame.
 
 .. code-block:: python
 
-    def clean_dataset():
-        try:
-            input_file = path.abspath(path.join("../data/treasury_data.csv"))
-            output_file = path.abspath(path.join("../data/hp_oltis_sanctioned_budget"))
-       
-            budget_data_df = data_pre_processing(input_file)
-            budget_data_df = split_columns_and_rename(budget_data_df)
-     
-            budget_data_df.to_csv(output_file, index=False)
-  
-        except Exception as error:
-            logger.error(f"An error occurred: {error}")
-          
-        return output_file
+   def clean_dataset():
+    '''Orchestrates the data processing steps using the above functions and returns the final processed DataFrame.'''
+
+    input_filename = path.abspath(path.join("../data/treasury_data.csv"))
+    output_filename = path.abspath(path.join("../data/hp_oltis_sanctioned_budget"))
+
+    budget_data_df = data_pre_processing(input_filename)
+    updated_budget_data_df = split_columns_and_rename(budget_data_df)
+    
+    updated_budget_data_df.to_csv(output_filename, index=False)
+        
+    return output_file
 
