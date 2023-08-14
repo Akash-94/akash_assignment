@@ -17,13 +17,28 @@ Pipeline Components
 
 Scrapy Spider: A Scrapy spider named ```hp_treasury``` is used to scrape data from the website (https://himkosh.nic.in/eHPOLTIS/PublicReports/wfrmBudgetAllocationbyFD.aspx). The scraped data is saved to a CSV file.
 
+Follow the link below for more information
+
+[Scraping] - https://github.com/Akash-94/akash_assignment/blob/main/Docs/airflow.rst
+
+
 2. Transformation
 
 Preprocessing Script: The ```preprocessing.py``` script performs data preprocessing on the scraped data. It handles missing values, renames columns, and splits columns for improved organization.
 
+Follow the link below for more information
+
+[Data Pre-processing] - https://github.com/Akash-94/akash_assignment/blob/main/Docs/airflow.rst
+
+
 3. Loading
 
 Database Write Script: The write_db.py script reads the preprocessed data CSV file and writes it to a SQLite database named ```assignment.sqlite```.
+
+Follow the link below for more information
+
+[Database Operations] - https://github.com/Akash-94/akash_assignment/blob/main/Docs/airflow.rst
+
 
 4. Orchestration
    
@@ -31,7 +46,7 @@ Airflow DAG: The data pipeline is orchestrated using an Apache Airflow DAG named
 
 Follow the link below for more information
 
-[Airflow] - https://github.com/Akash-94/akash_assignment/blob/main/Docs/airflow.rst#airflow-dag-documentation-hp-data-pipeline
+[Airflow] - https://github.com/Akash-94/akash_assignment/blob/main/Docs/airflow.rst
 
 
 
