@@ -1,5 +1,3 @@
 .idea
 
-__pycache__
-
-**/__pycache__/
+Scripts/schedulers/dags/__pycache__
