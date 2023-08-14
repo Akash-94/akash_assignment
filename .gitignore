@@ -1,4 +1,4 @@
 .idea
 
-Scripts/schedulers/dags/__pycache__/
+/Scripts/schedulers/dags/__pycache__/
 
