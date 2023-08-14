@@ -17,7 +17,7 @@ Apache airflow can be installed using the command shown below
 
     pip install "apache-airflow[celery]==2.6.3" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.6.3/constraints-3.7.txt"
 
-Upon running these commands, Airflow will create the “airflow.cfg” file with defaults that will be sufficient to run airflow. One can override defaults using environment variables, see Configuration Reference (https://airflow.apache.org/docs/apache-airflow/stable/configurations-ref.html). 
+Upon running these commands, Airflow will create the ```airflow.cfg``` file with the defaults that are sufficient to run airflow. One can override defaults using environment variables, see Configuration Reference (https://airflow.apache.org/docs/apache-airflow/stable/configurations-ref.html). 
 
 2. **Airflow Database**
 
