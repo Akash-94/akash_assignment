@@ -80,4 +80,7 @@ def clean_dataset():
     logger.info("Data cleaning and processing completed...")
         
     return output_file
+    
+if __name__ == "__main__":
+    output_file = clean_dataset()
 
