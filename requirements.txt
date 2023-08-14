@@ -1,0 +1,5 @@
+apache-airflow[celery]==2.6.3 --constraint https://raw.githubusercontent.com/apache/airflow/constraints-2.6.3/constraints-3.7.txt
+pandas==1.5.3
+scrapy==2.10.0
+sphinx==7.1.2
+SQLite==3.42.0
