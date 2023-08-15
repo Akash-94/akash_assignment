@@ -8,7 +8,7 @@ This script reads a CSV file containing budget data, performs data pre-processin
 Data Pre-processing Steps
 --------------------------
 
-Steps 1. 
+Step 1. 
 
 Reads the input CSV file, performs data pre-processing on rows and columns, and returns a clean DataFrame.
 The function reads the CSV file using the pandas library, skips unnecessary rows, and drops empty columns. Further, it renames the columns for better understanding and fills in missing values in the 'DmdCD' column. Finally filters out rows with 'Total' in the 'HOA' column.
