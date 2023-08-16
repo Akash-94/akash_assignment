@@ -17,7 +17,7 @@ The function reads the CSV file using the pandas library, skips unnecessary rows
 
     def data_pre_processing(filename):  
 
-        df = pd.read_csv(file, skiprows=1, header=None)
+        df = pd.read_csv(filename, skiprows=1, header=None)
         df = df.drop([0, 1])               # drops 1st & Grand Total rows
         df = df.drop([8,9,10,11], axis=1)  # drops empty columns
 
@@ -76,4 +76,4 @@ Finally, the main processing function Orchestrates the data processing steps usi
         return output_file
         
     if __name__ == "__main__":
-        output_file = clean_dataset()
+        output_filename = clean_dataset()
