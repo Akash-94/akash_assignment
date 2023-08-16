@@ -18,7 +18,7 @@ def data_pre_processing(filename):
     logger = logging.getLogger("DataPreProcessing")
     logger.info("Starting data pre-processing...")
     
-    df = pd.read_csv(file, skiprows=1, header=None)
+    df = pd.read_csv(filename, skiprows=1, header=None)
     df = df.drop([0, 1])               # drops 1st & Grand Total rows
     df = df.drop([8,9,10,11], axis=1)  # drops empty columns
 
@@ -79,8 +79,10 @@ def clean_dataset():
 
     logger.info("Data cleaning and processing completed...")
         
-    return output_file
+    return output_filename
     
 if __name__ == "__main__":
-    output_file = clean_dataset()
+    output_filename = clean_dataset()
+
+
 
