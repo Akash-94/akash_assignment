@@ -6,12 +6,30 @@ It navigates through the required pages, fills in a form, and extracts data.
 
 Usage
 -----
-1. Install Scrapy using: ``pip install scrapy``
-2. Start scrapy project: ``scrapy startproject BudgetSpider``
+1. Install Scrapy using
 
-3. Create spider: ``scrapy genspider hp_treasury himkosh.nic.in``
+.. code-block:: python
 
-4. Run the spider using: ``scrapy crawl hp_treasury``
+   pip install scrapy
+
+2. Start scrapy project
+
+.. code-block:: python
+
+   scrapy startproject BudgetSpider
+
+3. Create spider
+
+.. code-block:: python
+
+   scrapy genspider hp_treasury himkosh.nic.in
+
+4. Run the spider using
+
+.. code-block:: python
+
+   scrapy crawl hp_treasury
+
 
 Scraping
 --------
