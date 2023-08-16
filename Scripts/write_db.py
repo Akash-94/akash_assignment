@@ -1,5 +1,6 @@
 import pandas as pd
 import sqlite3 as sq
+from os import path
 import logging
 
 logging.basicConfig(
@@ -27,5 +28,6 @@ def write_db(db_name, df):
 
 if __name__ == "__main__":
     db_name = path.abspath(path.join(path.dirname(__file__), './assignment.sqlite'))
-    df = pd.read_csv(path.abspath(path.join(path.dirname(__file__), '.data/hp_oltis_sanctioned_budget.csv')))
+    df = pd.read_csv(path.abspath(path.join(path.dirname(__file__), '../data/hp_oltis_sanctioned_budget.csv')))
     write_db(db_name, df)
+
