@@ -34,7 +34,7 @@ Create user attributes such as username, role, e-mail, first name, last name, an
 
 .. code-block:: python
 
-        airflow users create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin
+        airflow users create --role admin --username admin --email admin --firstname admin --lastname admin --password admin
 
 
 Creating and Running a DAG (Example)
@@ -133,16 +133,16 @@ Task 1. `Scrape`: scrapes budget data from a website using a Scrapy spider.
 
     SCRAPING_TASK = BashOperator(
         task_id = 'scrape',
-        bash_command = cd "path.abspath(path.join(path.dirname(__file__), '../../scrapers')) && scrapy crawl hp_treasury"
+        bash_command = 'cd /home/akash/airflow/akash_assignment-main/Scripts/scrapers/scrapers/spiders && scrapy crawl hp_treasury'
     )
 
 Task 2: `Preprocessing`: Preprocesses the scraped data to clean and transform it.
 
 .. code-block:: python
 
-    PREPROCESSING_TASK = BashOperator(
+   PREPROCESSING_TASK = BashOperator(
         task_id = 'preprocessing',
-        bash_command = cd "path.abspath(path.join(path.dirname(__file__), '../schedulers/dags')) && python preprocessing.py"
+        bash_command = 'cd /home/akash/airflow/akash_assignment-main/Scripts && python3 preprocessing.py'
     )
     
 Task 3. `write_db`: Writes the processed data to a database.
@@ -151,7 +151,7 @@ Task 3. `write_db`: Writes the processed data to a database.
 
      WRITE_DB = BashOperator(
         task_id = 'write_db',
-        bash_command = cd "path.abspath(path.join(path.dirname(__file__), '../schedulers/dags')) && python write_db.py"
+        bash_command = 'cd /home/akash/airflow/akash_assignment-main/Scripts && python3 write_db.py'
     )
 
 
