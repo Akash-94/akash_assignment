@@ -32,7 +32,8 @@ Main program to write data from a CSV file to a SQLite database.
 .. code-block:: python
 
    if __name__ == "__main__":
-      db_name = path.abspath(path.join(path.dirname(__file__), './assignment.sqlite'))
-      df = pd.read_csv(path.abspath(path.join(path.dirname(__file__), '.data/hp_oltis_sanctioned_budget.csv')))
-      write_db(db_name, df)
+    db_name = path.abspath(path.join(path.dirname(__file__), './assignment.sqlite'))
+    df = pd.read_csv(path.abspath(path.join(path.dirname(__file__), '../data/hp_oltis_sanctioned_budget.csv')))
+    write_db(db_name, df)
+
       
