@@ -66,8 +66,8 @@ def clean_dataset():
     
     logger = logging.getLogger("CleanDataset")
 
-    input_filename = path.abspath(path.join("../data/treasury_data.csv"))
-    output_filename = path.abspath(path.join("../data/hp_oltis_sanctioned_budget"))
+    input_filename = '/home/akash/airflow/akash_assignment-main/data/treasury_data.csv'
+    output_filename = '/home/akash/airflow/akash_assignment-main/data/hp_oltis_sanctioned_budget.csv'
         
     logger.info("Starting data cleaning and processing...")
 
