@@ -87,7 +87,7 @@ The function parses the results page, extracts budget allocation data, cleans it
             column_names = response.xpath('//table//tr[@class="warning"]//td//text()').extract()
             all_data_rows = response.xpath('//table//tbody//tr')
     
-            filepath = "../../data/treasury_data.csv"
+            filepath = "/home/akash/airflow/akash_assignment-main/data/treasury_data.csv"
             try:
                 with open(filepath, 'w+') as output_file:
                     writer = csv.writer(output_file, delimiter=',')
