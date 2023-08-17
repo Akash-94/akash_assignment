@@ -65,8 +65,8 @@ Finally, the main processing function Orchestrates the data processing steps usi
 
     def clean_dataset():
         
-        input_filename = path.abspath(path.join("../data/treasury_data.csv"))
-        output_filename = path.abspath(path.join("../data/hp_oltis_sanctioned_budget"))
+        input_filename = '/home/akash/airflow/akash_assignment-main/data/treasury_data.csv'
+        output_filename = '/home/akash/airflow/akash_assignment-main/data/hp_oltis_sanctioned_budget.csv'
        
         budget_data_df = data_pre_processing(input_filename)
         updated_budget_data_df = split_columns_and_rename(budget_data_df)
