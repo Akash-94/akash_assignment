@@ -4,7 +4,7 @@ Overview of Orchestrating a Data Pipeline: My Journey
 Day 1 - Data Mining/Web Scraping
 --------------------------------
 
-On the first day, I delved into web scraping techniques to gather data. Due to my limited prior experience, I opted for Scrapy, a widely-used framework in the open-source community (Ref -  [https://medium.com/codex/the-top-10-open-source-web-scraping-tools-in-2022-ede0134a00d]).
+On the first day, I delved into web scraping techniques to gather data. Due to my limited prior experience, I opted for Scrapy, a widely-used framework in the open-source community (Ref - https://medium.com/codex/the-top-10-open-source-web-scraping-tools-in-2022-ede0134a00d).
 I referred to various resources to grasp the concepts and functionalities of web scraping. As I progressed, I gained the workings of Scrapy's spider module, which enabled me to navigate through pages and extract the desired data. However, my initial attempts at extracting data from an HP treasury portal posed challenges.
 
 Reasons for Challenges
@@ -16,9 +16,11 @@ To overcome these hurdles, I conducted some studies to address these issues. Eve
 
 References
 
-[https://medium.com/@simranpandey97/web-scraper-for-aspx-form-based-webpages-b8828085e4a2]
-[https://github.com/simran-pandey/Scrapy-and-BeautifulSoup-web-scraper-for-ASP.NET-webpages.git]
-[https://youtu.be/jTKL2qTw2Rc] 
+https://medium.com/@simranpandey97/web-scraper-for-aspx-form-based-webpages-b8828085e4a2
+
+https://github.com/simran-pandey/Scrapy-and-BeautifulSoup-web-scraper-for-ASP.NET-webpages.git
+
+https://youtu.be/jTKL2qTw2Rc
 
 Day 2-3 - Parsing Results
 -------------------------
