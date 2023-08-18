@@ -90,18 +90,18 @@ The HP Data Pipeline DAG consists of three main tasks:
 
 Scraping Task (scrape)
 
-The scraping task is responsible for initiating the data scraping process using a web scraping script. It invokes the scrapy crawl hp_treasury command to scrape data from a specified website.
+The scraping task is responsible for initiating the data scraping process using a web scraping script. It invokes the ```scrapy crawl hp_treasury``` command to scrape data from a specified website.
 The scraping task initiates subsequent processing steps by providing the raw data for further analysis.
 
 Preprocessing Task (preprocessing)
 
 Once the data is scraped, the preprocessing task is executed. It performs data pre-processing and transformation on the scraped data to make it suitable for analysis and storage.
-The preprocessing task invokes the python preprocessing.py command, which applies data transformations, cleaning, and structuring to the scraped data.
+The preprocessing task invokes the python ```preprocessing.py``` command, which applies data transformations, cleaning, and structuring to the scraped data.
 
 Write to Database Task (write_db)
 
 After the data is preprocessed, the write-to-database task is triggered. It takes the cleaned and transformed data and writes it to a database for persistent storage.
-The task invokes the Python write_db.py command, which connects to the database and inserts the processed data.
+The task invokes the Python ```write_db.py``` command, which connects to the database and inserts the processed data.
 
 
 DAG Configurations
